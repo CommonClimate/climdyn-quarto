@@ -4,50 +4,58 @@ title: "Research Projects"
 
 ## Current Projects
 
-### LinkedEarth
+### CyberPaleo
 ::: {.project-card}
-**Community platform for paleoclimate data and knowledge**
+**Ushering in the future of past climates**
 
-LinkedEarth is a collaborative effort to build a community-curated knowledge base for paleoclimate data. The project includes standardized data formats, community databases, and analytical tools that make paleoclimate data more accessible and reusable.
+Just because paleogeosciences study the past, doesn't mean they need to stay stuck in it. Until recently, people were mostly using Excel as their main tool to store, share, and analyze paleoclimate data. While spreadsheets have their place in the paleo workflow, they also severely limit the interpretability of the underlying data by humans and machines. Much of my recent and present work addresses these challenges by leveraging information technology.
 
-- **Role**: Co-Principal Investigator
-- **Funding**: NSF EarthCube
+- **Key Components**: LiPD data standard, LinkedEarth ontology, Pyleoclim analysis tools
 - **Website**: [linkedearth.org](https://linkedearth.org)
 :::
 
-### ENSO Paleoclimate Reconstruction
+### PaleoCube
 ::: {.project-card}
-**Understanding El Niño variability through geological time**
+**Enabling Cloud-Based Paleoclimatology**
 
-This project uses paleoclimate proxy records to reconstruct El Niño-Southern Oscillation variability over the past several millennia. We're investigating how ENSO has responded to different climate states and external forcings.
+The world is moving towards cloud-based workflows for nearly everything, and there is no reason that paleoclimate research should be left behind. **PaleoCube**, recently funded by the NSF EarthCube program, will build on existing cyberinfrastructure to bring cutting-edge capabilities to the fingertips of climate scientists.
 
-- **Role**: Principal Investigator  
-- **Funding**: NSF Paleoclimate Program
-- **Collaborators**: NOAA, Woods Hole Oceanographic Institution
+- **Role**: Co-Principal Investigator
+- **Funding**: NSF EarthCube
+- **Led by**: Deborah Khider (USC) with Nick McKay (NAU)
 :::
 
-### Tropical Pacific Climate Synthesis
+### Paleoclimate Data Assimilation
 ::: {.project-card}
-**Synthesizing paleoclimate records from the tropical Pacific**
+**Fusing models and observations to generate insights**
 
-A multi-institutional effort to compile and analyze paleoclimate records from across the tropical Pacific to understand large-scale climate patterns and their evolution through time.
+The study of low-frequency climate variations is fundamentally limited by the shortness of the instrumental record. Paleoclimate observations offer a way out, but are typically sparse, noisy, and indirect. Data assimilation techniques can optimally combine information from climate models, paleoclimate observations, and instrumental datasets.
 
-- **Role**: Co-Investigator
-- **Funding**: NSF Paleo Perspectives on Climate Change
-- **Timeline**: 2022-2025
+- **Key Innovation**: Kalman filter-based reconstruction methods
+- **Products**: Last Millennium Reanalysis (LMR)
+- **Funding**: NOAA Climate Program Office
 :::
 
-## Past Projects
-
-### Climate Data Assimilation
+### Big Data for Paleo
 ::: {.project-card}
-**Developing methods for paleoclimate data assimilation**
+**Data Science for paleohydrology and translational paleoclimatology**
 
-This project developed statistical frameworks for combining paleoclimate proxy data with climate model simulations to create spatially complete reconstructions of past climate.
+The paleoclimate record offers unique constraints on Earth system models used for climate projections. This study takes advantage of cutting-edge paleoclimate data compilations (e.g. SISAL) to answer fundamental questions: How synchronous are hydroclimate regime transitions since the last deglaciation?
 
-- **Years**: 2018-2022
-- **Funding**: NSF Climate Dynamics
-- **Products**: New statistical methods, open-source software
+- **Team**: USC, UT Austin, UCLA collaboration
+- **Funding**: NSF P2C2 (grant 2002558)
+- **Innovation**: PaleoHack workshops for community training
+:::
+
+### PReSto
+::: {.project-card}
+**A paleoclimate reconstruction storehouse**
+
+Paleoclimate reconstructions are the most widely used scientific product from the paleoclimate community. However, they are infrequently updated and commonly lag years behind the latest data and methods. **PReSto** will provide continuously-updated reconstructions with broad web access.
+
+- **Lead**: Nick McKay (NAU)
+- **Funding**: NSF Geoinformatics (EAR 1948822)
+- **Focus**: Common Era and Holocene reconstructions
 :::
 
 ## Software & Tools
@@ -60,6 +68,6 @@ This project developed statistical frameworks for combining paleoclimate proxy d
 
 ### LiPD Format
 **Linked Paleo Data format for standardizing paleoclimate datasets**
-- Co-developer of community data standard
-- Adopted by major paleoclimate databases
+- Co-developer with Nick McKay
+- Powers major paleoclimate databases
 - [Documentation](https://lipd.net)

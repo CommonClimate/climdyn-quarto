@@ -17,16 +17,14 @@ website:
         file: index.qmd
       - text: "About"
         file: about.qmd
-      - text: "Research"
-        menu:
-          - text: "Projects"
-            file: projects.qmd
-          - text: "Publications"
-            file: publications.qmd
-      - text: "Blog"
+      - text: "Projects"
+        file: projects.qmd
+      - text: "Publications"
+        file: publications.qmd
+      - text: "Teaching"
+        file: teaching.qmd
+      - text: "News"
         file: blog.qmd
-      - text: "Talks"
-        file: talks.qmd
     right:
       - icon: twitter
         href: https://twitter.com/StellarGeay
@@ -52,16 +50,16 @@ website:
 format:
   html:
     theme: 
-      - cosmo
+      - flatly
       - custom.scss
     css: styles.css
     toc: true
     toc-location: right
-    page-layout: full
+    page-layout: article
     grid:
-      sidebar-width: 250px
-      body-width: 900px
-      margin-width: 250px
+      sidebar-width: 200px
+      body-width: 800px
+      margin-width: 200px
 
 bibliography: references.bib
 csl: apa.csl
