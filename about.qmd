@@ -1,0 +1,38 @@
+---
+title: "About"
+---
+
+## Research Overview
+
+My research focuses on understanding climate variability and change across multiple timescales, from seasonal to millennial. I use paleoclimate proxy records, numerical climate models, and statistical methods to investigate:
+
+### Paleoclimatology
+- Reconstructing past climate from coral, tree ring, and ice core records
+- Understanding how tropical climate systems have varied over geological time
+- Developing new statistical methods for paleoclimate data analysis
+
+### Climate Dynamics  
+- Investigating the mechanisms behind El Niño-Southern Oscillation (ENSO)
+- Studying tropical-extratropical climate teleconnections
+- Understanding climate system responses to external forcing
+
+### Data Science for Climate
+- Building statistical frameworks for climate data analysis
+- Developing open-source tools for the paleoclimate community
+- Promoting reproducible research practices
+
+## Teaching & Mentoring
+
+I am passionate about education and have taught courses ranging from introductory earth science to graduate-level paleoclimatology. I mentor undergraduate and graduate students in research projects that combine fieldwork, laboratory analysis, and computational methods.
+
+## Open Science
+
+I am committed to open science practices, including:
+- Making research code and data publicly available
+- Contributing to community databases and software tools
+- Promoting reproducible research workflows
+- Supporting early-career scientists through mentoring and collaboration
+
+## Personal
+
+When I'm not researching climate, I enjoy hiking, photography, and exploring the natural beauty of Southern California. I'm also passionate about science communication and regularly engage with the public through talks, media interviews, and social media.

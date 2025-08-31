@@ -1,0 +1,54 @@
+---
+title: "Publications"
+---
+
+## Selected Recent Publications
+
+Below is a selection of my recent publications. For a complete list, please see my [Google Scholar profile](https://scholar.google.com/citations?user=OVti4jEAAAAJ).
+
+::: {#refs-selected}
+:::
+
+## All Publications
+
+::: {#refs}
+:::
+
+<script>
+// Script to handle publication filtering and formatting
+document.addEventListener('DOMContentLoaded', function() {
+    // Add any custom JavaScript for publication interactions here
+});
+</script>
+
+<style>
+.publication-item {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-left: 3px solid #006994;
+    background-color: #f8f9fa;
+    border-radius: 0 5px 5px 0;
+}
+
+.publication-year {
+    font-weight: bold;
+    color: #2E4A6B;
+    font-size: 1.1em;
+    margin-bottom: 0.5rem;
+}
+
+.publication-title {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.publication-authors {
+    color: #666;
+    margin-bottom: 0.3rem;
+}
+
+.publication-journal {
+    font-style: italic;
+    color: #006994;
+}
+</style>

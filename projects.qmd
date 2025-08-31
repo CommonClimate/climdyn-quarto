@@ -1,0 +1,65 @@
+---
+title: "Research Projects"
+---
+
+## Current Projects
+
+### LinkedEarth
+::: {.project-card}
+**Community platform for paleoclimate data and knowledge**
+
+LinkedEarth is a collaborative effort to build a community-curated knowledge base for paleoclimate data. The project includes standardized data formats, community databases, and analytical tools that make paleoclimate data more accessible and reusable.
+
+- **Role**: Co-Principal Investigator
+- **Funding**: NSF EarthCube
+- **Website**: [linkedearth.org](https://linkedearth.org)
+:::
+
+### ENSO Paleoclimate Reconstruction
+::: {.project-card}
+**Understanding El Niño variability through geological time**
+
+This project uses paleoclimate proxy records to reconstruct El Niño-Southern Oscillation variability over the past several millennia. We're investigating how ENSO has responded to different climate states and external forcings.
+
+- **Role**: Principal Investigator  
+- **Funding**: NSF Paleoclimate Program
+- **Collaborators**: NOAA, Woods Hole Oceanographic Institution
+:::
+
+### Tropical Pacific Climate Synthesis
+::: {.project-card}
+**Synthesizing paleoclimate records from the tropical Pacific**
+
+A multi-institutional effort to compile and analyze paleoclimate records from across the tropical Pacific to understand large-scale climate patterns and their evolution through time.
+
+- **Role**: Co-Investigator
+- **Funding**: NSF Paleo Perspectives on Climate Change
+- **Timeline**: 2022-2025
+:::
+
+## Past Projects
+
+### Climate Data Assimilation
+::: {.project-card}
+**Developing methods for paleoclimate data assimilation**
+
+This project developed statistical frameworks for combining paleoclimate proxy data with climate model simulations to create spatially complete reconstructions of past climate.
+
+- **Years**: 2018-2022
+- **Funding**: NSF Climate Dynamics
+- **Products**: New statistical methods, open-source software
+:::
+
+## Software & Tools
+
+### Pyleoclim
+**Python package for paleoclimate analysis**
+- Lead developer of analysis and visualization tools
+- Used by researchers worldwide
+- [GitHub Repository](https://github.com/LinkedEarth/Pyleoclim_util)
+
+### LiPD Format
+**Linked Paleo Data format for standardizing paleoclimate datasets**
+- Co-developer of community data standard
+- Adopted by major paleoclimate databases
+- [Documentation](https://lipd.net)

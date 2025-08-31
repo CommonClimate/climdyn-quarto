@@ -1,0 +1,46 @@
+---
+title: "Blog & Writing"
+---
+
+## Recent Posts from Medium
+
+I regularly write about paleoclimate research, data science, and open science on [Medium](https://medium.com/@cyberpaleo). Here are some recent highlights:
+
+::: {.blog-post}
+### [The Future of Paleoclimate Data](https://medium.com/cyberpaleo)
+*Published on Medium • March 2024*
+
+Exploring how new technologies and community initiatives are transforming how we collect, analyze, and share paleoclimate data.
+:::
+
+::: {.blog-post}
+### [Open Science in Practice: Lessons from LinkedEarth](https://medium.com/cyberpaleo)
+*Published on Medium • February 2024*
+
+Reflections on building community-driven infrastructure for paleoclimate research and the challenges of implementing open science practices.
+:::
+
+::: {.blog-post}
+### [Statistical Challenges in Paleoclimate Reconstruction](https://medium.com/cyberpaleo)
+*Published on Medium • January 2024*
+
+A technical deep-dive into the statistical methods used to reconstruct past climate from proxy records.
+:::
+
+## Topics I Write About
+
+- **Paleoclimate Research**: Methods, discoveries, and challenges in studying past climate
+- **Data Science**: Statistical methods and computational tools for climate research  
+- **Open Science**: Best practices for reproducible and collaborative research
+- **Climate Communication**: Making complex climate science accessible to broader audiences
+- **Research Process**: Behind-the-scenes look at how scientific research actually works
+
+## Connect with My Writing
+
+- **Medium**: [@cyberpaleo](https://medium.com/@cyberpaleo)
+- **Twitter**: [@StellarGeay](https://twitter.com/StellarGeay)
+- **Research Blog**: [LinkedEarth Blog](https://linkedearth.org/blog)
+
+---
+
+*Note: This page will be updated with the latest posts from my Medium blog automatically. Check back regularly for new content!*
