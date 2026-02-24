@@ -1,0 +1,60 @@
+/*-- scss:defaults --*/
+
+// Dark theme color palette
+$spc-primary-light: #e07a5f;
+$spc-primary: #9b4c5a;
+$spc-secondary: #f2cc8f;
+$spc-secondary-light: #ffd166;
+$spc-accent: #98c1d9;
+$spc-accent-light: #3d5a80;
+$spc-accent-dark: #293241;
+$spc-bg-0: #1a1a1a;
+
+// Quarto variables for dark theme
+$primary:                    $spc-primary-light;
+$secondary:                  $spc-secondary;
+$primary-dark:               $spc-primary;
+$secondary-light:            $spc-secondary-light;
+$accent:                     $spc-accent; 
+$accent-light:               $spc-accent-light;
+$accent-dark:                $spc-accent-dark;
+
+// Body
+$body-color:                 #e9ecef;
+$body-bg:                    $spc-bg-0;
+$body-secondary:             #adb5bd;
+
+// Fonts
+$font-family-sans-serif:     "Red Hat Text", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$headings-font-family:       "Petrona", serif;
+$headings-font-weight:       400;
+
+// Links
+$link-color:                  $secondary;
+$link-decoration:             underline;
+$link-hover-color:            $secondary-light;
+$link-hover-decoration:       none;
+
+// Code
+$code-block-bg:              #2d2d2d;
+$code-block-border:          #404040;
+$code-color:                 $body-color;
+$code-bg:                    lighten($spc-bg-0, 10%);
+
+// Navbar
+$navbar-fg:                  $secondary;
+
+/*-- scss:rules --*/
+
+// Import Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Petrona:wght@300;400;500;600&display=swap');
+
+// Dark theme specific styling
+.project-card, .publication-card {
+  background-color: lighten($spc-bg-0, 5%);
+  border-color: lighten($spc-bg-0, 15%);
+  color: $body-color;
+}
+
+// All other rules inherited from light theme

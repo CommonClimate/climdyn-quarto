@@ -1,61 +1,105 @@
 ---
-title: "Research Projects"
+title: "Research"
 ---
+
+## Themes
+
+My research focuses on **paleoclimatology** - the study of past climate variations using proxy records from trees, corals, sediments, and ice. I develop statistical methods, data standards, and computational tools to extract climate insights from these diverse archives. Key themes include:
+
+- **Data Standards & Cyberinfrastructure**: Building community platforms for paleoclimate data (LinkedEarth, LiPD format)
+- **Statistical Methods**: Paleoclimate data assimilation, uncertainty quantification, and time series analysis
+- **Climate Dynamics**: ENSO variability, volcanic forcing, and hydroclimate transitions
+- **Open Science**: Reproducible workflows, cloud computing, and community-driven research
 
 ## Current Projects
 
-### CyberPaleo
+### PaleoCube: Enabling Cloud-Based Paleoclimatology
 ::: {.project-card}
-**Ushering in the future of past climates**
-
-Just because paleogeosciences study the past, doesn't mean they need to stay stuck in it. Until recently, people were mostly using Excel as their main tool to store, share, and analyze paleoclimate data. While spreadsheets have their place in the paleo workflow, they also severely limit the interpretability of the underlying data by humans and machines. Much of my recent and present work addresses these challenges by leveraging information technology.
-
-- **Key Components**: LiPD data standard, LinkedEarth ontology, Pyleoclim analysis tools
-- **Website**: [linkedearth.org](https://linkedearth.org)
+::: {.project-meta}
+**NSF EarthCube ICER 2126510** | Co-PI | $290,283 (USC portion) | 2021-2024
 :::
 
-### PaleoCube
-::: {.project-card}
-**Enabling Cloud-Based Paleoclimatology**
+PaleoCube proposes to lower technical and social barriers that prevent full use of paleoclimate observations by bringing scientists to work in the Cloud. The project extends existing cyberinfrastructure (LinkedEarth, Pangeo, Jupyter) to bring cutting-edge capabilities to paleoclimate scientists through cloud-based workflows, hackathons, and community engagement.
 
-The world is moving towards cloud-based workflows for nearly everything, and there is no reason that paleoclimate research should be left behind. **PaleoCube**, recently funded by the NSF EarthCube program, will build on existing cyberinfrastructure to bring cutting-edge capabilities to the fingertips of climate scientists.
-
-- **Role**: Co-Principal Investigator
-- **Funding**: NSF EarthCube
-- **Led by**: Deborah Khider (USC) with Nick McKay (NAU)
+::: {.project-links}
+[NSF Award Page](https://nsf.gov/awardsearch/showAward?AWD_ID=2126510) | [Publications](#) | [Project Website](https://medium.com/cyberpaleo)
+:::
 :::
 
-### Paleoclimate Data Assimilation
+### A Big Data Approach to Fundamental Paleoclimate Questions
 ::: {.project-card}
-**Fusing models and observations to generate insights**
-
-The study of low-frequency climate variations is fundamentally limited by the shortness of the instrumental record. Paleoclimate observations offer a way out, but are typically sparse, noisy, and indirect. Data assimilation techniques can optimally combine information from climate models, paleoclimate observations, and instrumental datasets.
-
-- **Key Innovation**: Kalman filter-based reconstruction methods
-- **Products**: Last Millennium Reanalysis (LMR)
-- **Funding**: NOAA Climate Program Office
+::: {.project-meta}
+**NSF P2C2 AGS 2002518** | Lead PI | $398,099 (USC portion) | 2020-2023
 :::
 
-### Big Data for Paleo
-::: {.project-card}
-**Data Science for paleohydrology and translational paleoclimatology**
+Applying Big Data approaches to address fundamental questions in climate dynamics: (1) the spatial extent of abrupt changes in hydroclimate, and (2) how knowledge of past temperature variations can help reduce uncertainty in twenty-first century climate projections. Links paleoclimate data to CMIP6 climate model projections.
 
-The paleoclimate record offers unique constraints on Earth system models used for climate projections. This study takes advantage of cutting-edge paleoclimate data compilations (e.g. SISAL) to answer fundamental questions: How synchronous are hydroclimate regime transitions since the last deglaciation?
-
-- **Team**: USC, UT Austin, UCLA collaboration
-- **Funding**: NSF P2C2 (grant 2002558)
-- **Innovation**: PaleoHack workshops for community training
+::: {.project-links}
+[NSF Award Page](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2002518) |  [@James:PP2025; @James:4.2ka; @James_LERM:2024; @Cropper:2023; @Pyleoclim:PP2022]
+:::
 :::
 
-### PReSto
+### PReSto: A Paleoclimate Reconstruction Storehouse
 ::: {.project-card}
-**A paleoclimate reconstruction storehouse**
+::: {.project-meta}
+**NSF Geoinformatics EAR 1948822** | Lead PI | $347,629 (USC portion) | 2020-2023
+:::
 
-Paleoclimate reconstructions are the most widely used scientific product from the paleoclimate community. However, they are infrequently updated and commonly lag years behind the latest data and methods. **PReSto** will provide continuously-updated reconstructions with broad web access.
+Developing a continuously-updated platform for paleoclimate reconstructions with broad web access to accelerate scientific inference. PReSto will connect growing digital paleoclimate data to evolving methodologies and distribute results through responsive web interfaces.
 
-- **Lead**: Nick McKay (NAU)
-- **Funding**: NSF Geoinformatics (EAR 1948822)
-- **Focus**: Common Era and Holocene reconstructions
+::: {.project-links}
+[NSF Award Page](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1948822) | [Publications](#) | [Project Info](https://nickmckay.github.io/PReSto/)
+:::
+:::
+
+### Abrupt Change in Climate and Ecosystems
+::: {.project-card}
+::: {.project-meta}
+**Belmont Forum via NSF ICER 1929554** | Co-PI | $99,982 (USC portion) | 2019-2022
+:::
+
+International collaboration investigating tipping points in climate and ecosystems through integrated analysis approaches. Part of the Belmont Forum's focus on understanding where critical thresholds exist in Earth system components.
+
+::: {.project-links}
+[NSF Award Page](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1929554) | [Publications](#) | [Belmont Forum](https://www.belmontforum.org/)
+:::
+:::
+
+## Past Projects
+
+### The Global Climate Response to Volcanic Eruptions
+::: {.project-card}
+**NOAA Climate Program Office NA18OAR4310426** | Lead PI | $194,489 (USC portion) | 2018-2020
+
+Investigating volcanic climate impacts using the Last Millennium Reanalysis framework.
+:::
+
+### LinkedEarth: Crowdsourcing Data Curation & Standards
+::: {.project-card}
+**NSF EarthCube ICER 1541029** | Lead PI | $684,978 (USC portion) | 2015-2017
+
+Community platform development for paleoclimate data standards and knowledge curation.
+:::
+
+### Last Millennium Climate Reanalysis Project
+::: {.project-card}
+**NOAA Climate Program Office NOAA-OAR-CPO-2014-2003692** | Co-PI | $254,255 (USC portion) | 2014-2017
+
+Developing data assimilation methods for paleoclimate reconstructions over the Common Era.
+:::
+
+### GeoChronR: Open-Source Tools for Time-Uncertain Data
+::: {.project-card}
+**NSF Geoinformatics EAR 1347213** | Co-PI | $196,655 (USC portion) | 2014-2017
+
+Analysis, visualization and integration tools for geochronological data with age uncertainties.
+:::
+
+### Efficient High Dimensional Bayesian Methods for Climate Field Reconstruction
+::: {.project-card}
+**NSF Mathematical Geophysics DMS 1025464** | Co-PI | $214,002 (USC portion) | 2010-2015
+
+Statistical method development for spatially complete climate reconstructions.
 :::
 
 ## Software & Tools

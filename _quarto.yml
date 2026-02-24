@@ -10,28 +10,22 @@ website:
   favicon: assets/favicon.ico
   
   navbar:
-    background: primary
-    search: true
-    left:
-      - text: "Home"
-        file: index.qmd
-      - text: "About"
-        file: about.qmd
-      - text: "Projects"
-        file: projects.qmd
-      - text: "Publications"
-        file: publications.qmd
-      - text: "Teaching"
-        file: teaching.qmd
-      - text: "News"
-        file: blog.qmd
+    tools:
+    - icon: github
+      href: https://www.github.com/CommonClimate/climdyn-quarto
     right:
-      - icon: twitter
-        href: https://twitter.com/StellarGeay
-      - icon: github
-        href: https://github.com/CommonClimate
-      - icon: envelope
-        href: mailto:julieneg@usc.edu
+      - text: Research
+        aria-label: "Research Projects"
+        href: projects.qmd
+      - text: Publications
+        aria-label: "Publications"
+        href: publications.qmd
+      - text: Teaching
+        aria-label: "Teaching"
+        href: teaching.qmd
+      - text: News
+        aria-label: "News and Updates"
+        href: blog.qmd
 
   page-footer:
     left: |
@@ -47,19 +41,18 @@ website:
         href: mailto:julieneg@usc.edu
         aria-label: Email
 
-format:
+format: 
   html:
-    theme: 
-      - flatly
-      - custom.scss
-    css: styles.css
-    toc: true
-    toc-location: right
-    page-layout: article
-    grid:
-      sidebar-width: 200px
-      body-width: 800px
-      margin-width: 200px
+    theme:
+      light:
+        - cosmo
+        - assets/theme-light.scss
+      dark: 
+        - cosmo
+        - assets/theme-dark.scss
+    code-link: true
+    pagetitle: "{{< meta title >}}"
+    lightbox: true
 
 bibliography: references.bib
 csl: apa.csl

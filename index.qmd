@@ -1,7 +1,7 @@
 ---
 title: "Julien Emile-Geay"
 subtitle: "Paleoclimatology, Climate Dynamics, Data Science, Open Knowledge"
-image: assets/profile.jpg
+image: assets/img/profile.jpg
 about:
   template: trestles
   image-width: 20em
@@ -27,11 +27,18 @@ about:
       href: https://dornsife.usc.edu/earth
 ---
 
-## About
 
-I am a Professor in the Department of Earth Sciences at the University of Southern California, where I study past climate variability using paleoclimate proxies and numerical models. My research focuses on understanding climate dynamics across multiple timescales, from seasonal to millennial, with particular emphasis on the tropical Pacific and its global teleconnections.
 
-My work bridges paleoclimatology, climate dynamics, and data science, with a strong commitment to open science practices and reproducible research. I am passionate about developing new statistical methods for paleoclimate data analysis and building tools that make climate data more accessible to the broader scientific community.
+::: {#hero-heading}
+
+I am a Professor in the Department of Earth Sciences at the University of Southern California, where I study low-frequency climate variability -- the [bassline of climate](https://forecastpod.org/2018/12/20/episode-50-julien-emile-geay/). My research focuses on understanding climate dynamics across multiple timescales, from seasonal to millennial, with particular emphasis on the tropical Pacific and its global teleconnections.
+
+My work bridges paleoclimatology, climate dynamics, and data science, with a strong commitment to open science practices and reproducible research. I am passionate about building tools that make climate data and climate science more accessible to everyone.
+
+[Learn more about me &rarr;](/about){.about-links .subtitle}
+
+:::
+<!-- hero-heading -->
 
 ## Research Interests
 
@@ -40,16 +47,3 @@ My work bridges paleoclimatology, climate dynamics, and data science, with a str
 - **Data Science**: Developing statistical methods for climate data analysis
 - **Open Science**: Promoting reproducible research and open data practices
 
-## Selected News
-
-::: {.news-item}
-**2024-01** - New paper published in *Nature Climate Change* on tropical Pacific variability
-:::
-
-::: {.news-item}
-**2023-11** - Awarded NSF grant for paleoclimate data synthesis
-:::
-
-::: {.news-item}
-**2023-09** - Keynote speaker at AGU Fall Meeting
-:::
