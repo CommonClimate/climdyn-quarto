@@ -1,13 +1,13 @@
 /*-- scss:defaults --*/
 
-// Dark theme color palette
-$spc-primary-light: #e07a5f;
-$spc-primary: #9b4c5a;
-$spc-secondary: #f2cc8f;
-$spc-secondary-light: #ffd166;
-$spc-accent: #98c1d9;
-$spc-accent-light: #3d5a80;
-$spc-accent-dark: #293241;
+// Dark theme blue color palette
+$spc-primary-light: #87CEFA;   // Light Sky Blue (visible on dark bg)
+$spc-primary: #6495ED;         // Cornflower Blue
+$spc-secondary: #87CEEB;       // Sky Blue (links)
+$spc-secondary-light: #ADD8E6; // Light Blue (hover)
+$spc-accent: #4682B4;          // Steel Blue
+$spc-accent-light: #00008B;    // Dark Blue
+$spc-accent-dark: #00008B;     // Dark Blue
 $spc-bg-0: #1a1a1a;
 
 // Quarto variables for dark theme
@@ -42,13 +42,45 @@ $code-color:                 $body-color;
 $code-bg:                    lighten($spc-bg-0, 10%);
 
 // Navbar
-$navbar-fg:                  $secondary;
+$navbar-bg:                  $spc-bg-0;
+$navbar-fg:                  #e9ecef;
 
 /*-- scss:rules --*/
 
 // Import Google Fonts
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Petrona:wght@300;400;500;600&display=swap');
+
+// Navbar
+.navbar {
+  background: $spc-bg-0 !important;
+}
+
+.navbar-title {
+  font-size: 0.75em;
+  font-weight: 500;
+  color: #e9ecef !important;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+
+  &:hover {
+    border-bottom: 1px solid #e9ecef !important;
+  }
+}
+
+.navbar-nav .nav-link {
+  color: $secondary !important;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  border-bottom: 0px hidden $secondary;
+  margin: 0px 10px 0px 10px;
+  padding: 2px 2px 4px 2px !important;
+
+  &:hover {
+    border-bottom: 1px solid $secondary !important;
+    padding: 2px 2px 0px 2px !important;
+  }
+}
 
 // Dark theme specific styling
 .project-card, .publication-card {

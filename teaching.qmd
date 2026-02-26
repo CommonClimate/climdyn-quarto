@@ -4,43 +4,64 @@ title: "Teaching"
 
 ## Undergraduate Classes
 
+### CORE103 The Discovery of Global Warming
+There is today a quasi-absolute scientific consensus that human activities are warming the planet. How did we get there? This class surveys the 200-year history of this discovery, tracing how it mirrors the broader progress of science: quantum physics, electromagnetism, fluid dynamics, biogeochemistry, radioisotope chemistry, chaos theory, ecology, supercomputing, and the theory of complex adaptive systems. Along the way, students learn much about the nature of scientific inquiry — the culture of "organized skepticism" at the root of scientific progress, and the emergence of consensus from a consilience of evidence involving theory, observations, and numerical experiment. The course includes field trips to Mount Wilson Observatory, the La Brea Tar Pits, and NASA's Jet Propulsion Laboratory.
+
+**Schedule**: Taught occasionally
+**Syllabus**: [Fall 2023](syllabi/CORE103_Emile-Geay_syllabus_Fall2023.pdf)
+
 ### GEOL150 Climate Change
 A general education (Category E: Physical Sciences) undergraduate course introducing students to the fundamentals of natural and anthropogenic climate change. After briefly recalling the formation of the solar system, our planet and its fluid envelopes, we introduce the basic physics of the climate system, providing tools to understand climate variability (e.g. monsoons, El Niño), the greenhouse effect, and climate feedbacks. Building on this understanding, a succinct tour of Earth's history helps paint a more complete picture of climate variations and how they interacted with human history. We highlight the anomalous character of recent climate change, establish its anthropogenic nature, discuss the root causes of this crisis, and potential solutions.
 
-**Schedule**: Typically taught every Spring  
-**Next taught**: TBD
+**Schedule**: Alternate Spring
+**Next taught**: Spring 2027
+**Syllabus**: [Spring 2025](syllabi/GEOL150_syllabus_Sp2025.pdf)
 
 ### GEOL145 Lies, damn lies and statistics
 A general education (Category F: Quantitative Reasoning) undergraduate course introducing students to evidence-based methods to form reliable judgements on any topic where quantitative measurements exist. The class starts with case studies where expert consensus and societal perceptions differ. Along the way, students learn the basics of statistics and data science and how to apply them to almost any problem. In so doing, they learn a bit about climate science, epidemiology, psychology, biology, and yes, maths.
 
 **Schedule**: Next taught TBD
+**Syllabus**: [Spring 2020](syllabi/GEOL145_syllabus_2020.pdf)
 
 ### GEOL351 Climate Systems
 A modular set of lectures and problem sets/labs aimed at teaching system-level behavior in the Earth's outer fluid envelopes. Our emphasis is on climate dynamics and climate-related geosystems as a point of entry to understand complex (including human) systems. Topics include stability of the thermohaline circulation, icehouse/hothouse vacillations, faint Sun paradox, chaos and the Lorenz system, El Niño dynamics and predictability. Python-based practicums (Jupyter Notebooks) allow students to play with these high-level concepts in an intuitive way.
 
-**Schedule**: Next taught Spring 2022
+**Schedule**: Alternate Spring
+**Next taught**: Spring 2028
+**Syllabus**: [Spring 2026](syllabi/GEOL351_syllabus_Sp2026_v1.2.pdf)
 
 ### GEOL425 Data Analysis in the Earth & Environmental Sciences
 Introduction to mathematical methods giving insight into Earth and Environmental data. Topics include: probability and statistics, timeseries analysis, spectral analysis, filtering, inverse theory, data reduction. Essential skills we teach include performing calculations with real-world data, visualizing data with error estimates, computing correlation coefficients, spectral analysis, linear regressions, parametric and non-parametric statistical tests, and data reduction techniques like principal component analysis.
 
-**Schedule**: Next taught Fall 2023
+**Schedule**: Alternate Fall 
+**Next taught**: Fall 2027
+**Syllabus**: [Fall 2025](syllabi/GEOL425L_syllabus_2025.pdf)
+**Textbook**: available on [FigShare](https://doi.org/10.6084/m9.figshare.1014336)
 
 ## Graduate Classes
+### OS 512: Introduction to Chemical & Physical Oceanography
+
+Principles of physical, chemical, and geological oceanography including discussions of air-sea interaction, biogeochemical cycling and the role of the ocean in modulating climate and atmospheric composition. The discussion section provides practice with basic calculations that illustrate these principles.
+
+**Schedule**: Alternate Fall
+**Next taught**: Fall 2026
+**Syllabus**: [Fall 2024](syllabi/OS512_Fall2024_v2.docx)
 
 ### GEOL515: Introduction to Atmospheric Science
 Introduction to basic atmospheric phenomena. Aimed at entry-level graduate students in science and engineering with prior exposure to basic thermodynamics, mechanics and differential calculus. Learning outcomes include: fundamentals of atmospheric thermodynamics, radiation, absorption and scattering, greenhouse effect, large-scale dynamical balances. The class lays out the fundamental physical principles underpinning our understanding of the atmosphere, works out traditional approximations, and ends with some applications to real-world problems.
 
-**Schedule**: Next taught Fall 2022
+**Schedule**: Now taught by Professor [Sam Silva](https://www.samjsilva.com)
+**Syllabus**: [Fall 2020](syllabi/GEOL515_syllabus_longform.pdf)
 
 ### GEOL599: The Cutting Edge of Geosciences Research
 A 2-unit graduate seminar to encourage engagement in cutting-edge, diverse geoscience research. Class meets twice per week for one hour, structured around a Monday afternoon lecture from a visiting speaker, or on some occasions from a USC faculty member. We also meet the week prior to each lecture to discuss a paper recommended by the speaker.
 
-**Schedule**: Next taught Spring 2022
+**Schedule**: taught every semester by different instructors. 
 
 ## Training Activities
 - **PaleoHackathon**: [Website](https://linkedearth.github.io/paleoHackathon/) and [notebook practicums](https://github.com/LinkedEarth/paleoHackathon)
 - Follow the [CyberPaleo blog](https://medium.com/cyberpaleo) and the [LinkedEarth Twitter feed](https://twitter.com/Linked_Earth) for announcements
 
 ## Resources
-- A survival kit for geophysical fluid dynamics
+- A survival kit for geophysical fluid dynamics 
 - Data Analysis in the Earth & Environmental Sciences: free [e-book](https://figshare.com/articles/book/Data_Analysis_in_the_Earth_Environmental_Sciences/1014336)

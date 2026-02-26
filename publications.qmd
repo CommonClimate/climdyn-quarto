@@ -1,54 +1,311 @@
 ---
 title: "Publications"
+bibliography: references.bib
+csl: agu.csl
+nocite: |
+  @James:PP2025, @James:4.2ka, @Emile-Geay:2025, @cfr_2024, @James_LERM:2024,
+  @Yang:ncomms2024, @Cropper:2023, @pseudoPAGES2k, @CoralHydro2k:ESSD2023,
+  @JEG_dataAnalysis, @Pyleoclim:PP2022, @Manety:EDS2022, @Zhu:ncomms2022,
+  @geochronr-paper, @Power:Science2021, @Vaccaro:GraphEM, @King:JClim2021,
+  @Feng:2021, @ENSObook2020:ch05, @Dee:Science2020a, @Erb:SciAdv2020,
+  @Kaufman:2020a, @Zhu:GRL2020, @Brierley:CP2020, @PaCTS_v1,
+  @Neukom:ngeo2019, @Tardif:CP19, @Zhu:PNAS2019, @Hu:PP2019, @Barboza:2019,
+  @LinkedEarth:PAGES2018, @McKay:PAGES2018, @Singh_CP18, @Fischer:2018,
+  @Hu:jgr2018, @PAGES2k_SD2017_allauthors, @LMR_wrkshp3, @Dee_proxyScaling,
+  @Hu:epsl17, @LMR1, @Dee:JAMES2016, @lipd_cp, @JEG_McKay2016,
+  @JEG_NatGeo2015, @JEG_Tingley_CP2016, @Chen_EPSL2016, @PRYSM,
+  @Wang_GRL15, @Comboul_JClim2015, @Guillot_AOAS2015, @Khider_G3_2015,
+  @Dee_JGR15, @Comboul_CP14, @Wang_CP2014, @JEG10a, @JEG10b, @EE13,
+  @Ault:GRL13, @Partin_Geology2013, @DMT_2013, @Khider_PA11, @DMT_2011,
+  @Dutay10, @JEG_Madec09, @JEG09c, @JEG08, @JEG07, @Herweijer_et_al2006b,
+  @JEG03
 ---
 
-## Selected Recent Publications
+For a complete list see my [Google Scholar profile](https://scholar.google.com/citations?user=OVti4jEAAAAJ).
 
-Below is a selection of my recent publications. For a complete list, please see my [Google Scholar profile](https://scholar.google.com/citations?user=OVti4jEAAAAJ).
+```{=html}
+<style>
+/* ── Tag filter bar ─────────────────────────────────────────────────────── */
+#tag-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 1.2rem 0 1.8rem 0;
+}
 
-::: {#refs-selected}
-:::
+.tag-btn {
+  display: inline-block;
+  padding: 0.28rem 0.85rem;
+  border-radius: 2em;
+  border: 1.5px solid #4682B4;
+  background: transparent;
+  color: #4682B4;
+  font-size: 0.82rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.18s, color 0.18s;
+  white-space: nowrap;
+}
 
-## All Publications
+.tag-btn:hover {
+  background: #dbeaf5;
+}
+
+.tag-btn.active {
+  background: #4682B4;
+  color: #fff;
+}
+
+/* ── Year headers ────────────────────────────────────────────────────────── */
+.pub-year-header {
+  color: #4682B4;
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin: 2rem 0 0.4rem 0;
+  padding-bottom: 0.25rem;
+  border-bottom: 2px solid #4682B4;
+}
+
+/* ── CSL bibliography entries ────────────────────────────────────────────── */
+.csl-bib-body {
+  margin-top: 0;
+}
+
+.csl-entry {
+  border-left: 3px solid #4682B4;
+  padding: 0.6rem 0.9rem !important;
+  padding-left: 0.9rem !important;
+  text-indent: 0 !important;
+  margin-bottom: 0.85rem;
+  background: #f8fbff;
+  border-radius: 0 4px 4px 0;
+  transition: box-shadow 0.18s;
+}
+
+.csl-entry:hover {
+  box-shadow: 0 2px 10px rgba(70,130,180,0.18);
+}
+
+/* ── Tag badges ──────────────────────────────────────────────────────────── */
+.pub-tags {
+  margin-top: 0.35rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.pub-tag {
+  display: inline-block;
+  padding: 0.1rem 0.5rem;
+  border-radius: 2em;
+  background: #dbeaf5;
+  color: #003366;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+</style>
+
+<div id="tag-filter">
+  <button class="tag-btn active" data-tag="all">All</button>
+  <button class="tag-btn" data-tag="data assimilation">data assimilation</button>
+  <button class="tag-btn" data-tag="reconstruction">reconstruction</button>
+  <button class="tag-btn" data-tag="climate modeling">climate modeling</button>
+  <button class="tag-btn" data-tag="proxy system modeling">proxy system modeling</button>
+  <button class="tag-btn" data-tag="data compilation">data compilation</button>
+  <button class="tag-btn" data-tag="timeseries analysis">timeseries analysis</button>
+  <button class="tag-btn" data-tag="event detection">event detection</button>
+  <button class="tag-btn" data-tag="causal discovery">causal discovery</button>
+  <button class="tag-btn" data-tag="Sun-climate connections">Sun-climate connections</button>
+  <button class="tag-btn" data-tag="statistics">statistics</button>
+  <button class="tag-btn" data-tag="volcanic response">volcanic response</button>
+  <button class="tag-btn" data-tag="ENSO">ENSO</button>
+  <button class="tag-btn" data-tag="model evaluation">model evaluation</button>
+</div>
+```
 
 ::: {#refs}
 :::
 
+```{=html}
 <script>
-// Script to handle publication filtering and formatting
-document.addEventListener('DOMContentLoaded', function() {
-    // Add any custom JavaScript for publication interactions here
+document.addEventListener('DOMContentLoaded', function () {
+
+  // ── Tag / year mapping (keys are Quarto ref IDs: colons → hyphens) ──────
+  const tagMap = {
+    // 2025
+    "James-PP2025":          { year: 2025, tags: ["timeseries analysis"] },
+    "James-4.2ka":           { year: 2025, tags: ["event detection", "timeseries analysis"] },
+    "Emile-Geay-2025":       { year: 2025, tags: ["data assimilation", "statistics"] },
+    // 2024
+    "cfr_2024":              { year: 2024, tags: ["reconstruction"] },
+    "James_LERM-2024":       { year: 2024, tags: ["timeseries analysis", "event detection"] },
+    "Yang-ncomms2024":       { year: 2024, tags: ["ENSO", "reconstruction", "data assimilation"] },
+    // 2023
+    "Cropper-2023":          { year: 2023, tags: ["model evaluation"] },
+    "pseudoPAGES2k":         { year: 2023, tags: ["proxy system modeling", "data compilation", "reconstruction"] },
+    "CoralHydro2k-ESSD2023": { year: 2023, tags: ["data compilation"] },
+    "JEG_dataAnalysis":      { year: 2023, tags: ["timeseries analysis"] },
+    // 2022
+    "Pyleoclim-PP2022":      { year: 2022, tags: ["timeseries analysis"] },
+    "Manety-EDS2022":        { year: 2022, tags: ["timeseries analysis"] },
+    "Zhu-ncomms2022":        { year: 2022, tags: ["ENSO", "volcanic response", "data assimilation"] },
+    // 2021
+    "geochronr-paper":       { year: 2021, tags: ["timeseries analysis"] },
+    "Power-Science2021":     { year: 2021, tags: ["ENSO"] },
+    "Vaccaro-GraphEM":       { year: 2021, tags: ["reconstruction"] },
+    "King-JClim2021":        { year: 2021, tags: ["data assimilation", "reconstruction"] },
+    "Feng-2021":             { year: 2021, tags: ["ENSO"] },
+    // 2020
+    "ENSObook2020-ch05":     { year: 2020, tags: ["ENSO", "reconstruction"] },
+    "Dee-Science2020a":      { year: 2020, tags: ["ENSO", "volcanic response"] },
+    "Erb-SciAdv2020":        { year: 2020, tags: ["data assimilation", "ENSO"] },
+    "Kaufman-2020a":         { year: 2020, tags: ["data compilation"] },
+    "Zhu-GRL2020":           { year: 2020, tags: ["model evaluation", "volcanic response", "data assimilation"] },
+    "Brierley-CP2020":       { year: 2020, tags: ["model evaluation"] },
+    // 2019
+    "PaCTS_v1":              { year: 2019, tags: ["data compilation"] },
+    "Neukom-ngeo2019":       { year: 2019, tags: ["reconstruction", "model evaluation"] },
+    "Tardif-CP19":           { year: 2019, tags: ["data assimilation", "reconstruction"] },
+    "Zhu-PNAS2019":          { year: 2019, tags: ["model evaluation", "timeseries analysis"] },
+    "Hu-PP2019":             { year: 2019, tags: ["proxy system modeling"] },
+    "Barboza-2019":          { year: 2019, tags: ["reconstruction"] },
+    // 2018
+    "LinkedEarth-PAGES2018": { year: 2018, tags: ["data compilation"] },
+    "McKay-PAGES2018":       { year: 2018, tags: ["data compilation"] },
+    "Singh_CP18":            { year: 2018, tags: ["data assimilation"] },
+    "Fischer-2018":          { year: 2018, tags: ["reconstruction"] },
+    "Hu-jgr2018":            { year: 2018, tags: ["climate modeling"] },
+    // 2017
+    "PAGES2k_SD2017_allauthors": { year: 2017, tags: ["data compilation"] },
+    "LMR_wrkshp3":           { year: 2017, tags: ["data assimilation"] },
+    "Dee_proxyScaling":      { year: 2017, tags: ["proxy system modeling", "model evaluation"] },
+    "Hu-epsl17":             { year: 2017, tags: ["timeseries analysis"] },
+    // 2016
+    "LMR1":                  { year: 2016, tags: ["data assimilation", "reconstruction"] },
+    "Dee-JAMES2016":         { year: 2016, tags: ["proxy system modeling", "data assimilation"] },
+    "lipd_cp":               { year: 2016, tags: ["data compilation"] },
+    "JEG_McKay2016":         { year: 2016, tags: ["data compilation"] },
+    "JEG_NatGeo2015":        { year: 2016, tags: ["ENSO", "model evaluation", "proxy system modeling"] },
+    "JEG_Tingley_CP2016":    { year: 2016, tags: ["ENSO", "timeseries analysis", "statistics"] },
+    "Chen_EPSL2016":         { year: 2016, tags: ["ENSO","timeseries analysis"] },
+    // 2015
+    "PRYSM":                 { year: 2015, tags: ["proxy system modeling"] },
+    "Wang_GRL15":            { year: 2015, tags: ["reconstruction", "model evaluation"] },
+    "Comboul_JClim2015":     { year: 2015, tags: ["reconstruction", "data assimilation"] },
+    "Guillot_AOAS2015":      { year: 2015, tags: ["reconstruction", "statistics"] },
+    "Khider_G3_2015":        { year: 2015, tags: ["proxy system modeling"] },
+    "Dee_JGR15":             { year: 2015, tags: ["climate modeling"] },
+    // 2014
+    "Comboul_CP14":          { year: 2014, tags: ["proxy system modeling", "statistics"] },
+    "Wang_CP2014":           { year: 2014, tags: ["reconstruction", "statistics"] },
+    // 2013
+    "JEG10a":                { year: 2013, tags: ["ENSO", "reconstruction"] },
+    "JEG10b":                { year: 2013, tags: ["ENSO", "reconstruction"] },
+    "EE13":                  { year: 2013, tags: ["data compilation"] },
+    "Ault-GRL13":            { year: 2013, tags: ["ENSO", "timeseries analysis"] },
+    "Partin_Geology2013":    { year: 2013, tags: ["ENSO"] },
+    "DMT_2013":              { year: 2013, tags: ["proxy system modeling"] },
+    // 2011
+    "Khider_PA11":           { year: 2011, tags: ["ENSO", "reconstruction"] },
+    "DMT_2011":              { year: 2011, tags: ["proxy system modeling", "ENSO"] },
+    // 2010
+    "Dutay10":               { year: 2010, tags: [] },
+    // 2009
+    "JEG_Madec09":           { year: 2009, tags: [] },
+    "JEG09c":                { year: 2009, tags: ["ENSO"] },
+    // 2008
+    "JEG08":                 { year: 2008, tags: ["ENSO", "volcanic response", "Sun-climate connections"] },
+    // 2007
+    "JEG07":                 { year: 2007, tags: ["Sun-climate connections", "ENSO"] },
+    "Herweijer_et_al2006b":  { year: 2007, tags: ["reconstruction"] },
+    // 2003
+    "JEG03":                 { year: 2003, tags: [] },
+  };
+
+  // ── 1. Annotate each .csl-entry with data-tags, data-year, and badge div ─
+  const entries = Array.from(document.querySelectorAll('#refs .csl-entry'));
+
+  entries.forEach(function (el) {
+    const rawId = el.id.replace(/^ref-/, '').replace(/:/g, '-');
+    const info = tagMap[rawId] || { year: 0, tags: [] };
+
+    el.setAttribute('data-tags', info.tags.join('|'));
+    el.setAttribute('data-year', info.year);
+
+    if (info.tags.length > 0) {
+      const badgeContainer = document.createElement('div');
+      badgeContainer.className = 'pub-tags';
+      info.tags.forEach(function (tag) {
+        const badge = document.createElement('span');
+        badge.className = 'pub-tag';
+        badge.textContent = tag;
+        badgeContainer.appendChild(badge);
+      });
+      el.appendChild(badgeContainer);
+    }
+  });
+
+  // ── 2. Re-sort entries by year descending ─────────────────────────────────
+  const refsDiv = document.getElementById('refs');
+  const bib = refsDiv
+    ? (refsDiv.querySelector('.csl-bib-body') || refsDiv)
+    : null;
+
+  if (bib) {
+    entries.sort(function (a, b) {
+      return (parseInt(b.getAttribute('data-year')) || 0) -
+             (parseInt(a.getAttribute('data-year')) || 0);
+    });
+    entries.forEach(function (el) { bib.appendChild(el); });
+  }
+
+  // ── 3. Inject year-group headers after sorting ────────────────────────────
+  let currentYear = null;
+  entries.forEach(function (el) {
+    const year = parseInt(el.getAttribute('data-year')) || 0;
+    if (year !== currentYear && year > 0) {
+      currentYear = year;
+      const h2 = document.createElement('h2');
+      h2.className = 'pub-year-header';
+      h2.textContent = year;
+      el.parentNode.insertBefore(h2, el);
+    }
+  });
+
+  // ── 4. Filter button logic ────────────────────────────────────────────────
+  document.querySelectorAll('.tag-btn').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      document.querySelectorAll('.tag-btn').forEach(function (b) {
+        b.classList.remove('active');
+      });
+      this.classList.add('active');
+
+      const tag = this.getAttribute('data-tag');
+
+      entries.forEach(function (el) {
+        if (tag === 'all') {
+          el.style.display = '';
+        } else {
+          const tags = el.getAttribute('data-tags') || '';
+          el.style.display = tags.split('|').includes(tag) ? '' : 'none';
+        }
+      });
+
+      // Show/hide year headers based on whether any entry beneath them is visible
+      document.querySelectorAll('.pub-year-header').forEach(function (h) {
+        let next = h.nextElementSibling;
+        let anyVisible = false;
+        while (next && !next.classList.contains('pub-year-header')) {
+          if (next.classList.contains('csl-entry') && next.style.display !== 'none') {
+            anyVisible = true;
+            break;
+          }
+          next = next.nextElementSibling;
+        }
+        h.style.display = anyVisible ? '' : 'none';
+      });
+    });
+  });
 });
 </script>
-
-<style>
-.publication-item {
-    margin-bottom: 1.5rem;
-    padding: 1rem;
-    border-left: 3px solid #006994;
-    background-color: #f8f9fa;
-    border-radius: 0 5px 5px 0;
-}
-
-.publication-year {
-    font-weight: bold;
-    color: #2E4A6B;
-    font-size: 1.1em;
-    margin-bottom: 0.5rem;
-}
-
-.publication-title {
-    font-weight: 600;
-    margin-bottom: 0.5rem;
-}
-
-.publication-authors {
-    color: #666;
-    margin-bottom: 0.3rem;
-}
-
-.publication-journal {
-    font-style: italic;
-    color: #006994;
-}
-</style>
+```

@@ -23,13 +23,17 @@ website:
       - text: Teaching
         aria-label: "Teaching"
         href: teaching.qmd
+      - text: Life
+        aria-label: "Life outside the lab"
+        href: life.qmd
       - text: News
         aria-label: "News and Updates"
         href: blog.qmd
+      
 
   page-footer:
     left: |
-      © 2024 Julien Emile-Geay. Built with [Quarto](https://quarto.org).
+      © 2026 Julien Emile-Geay. Built with [Quarto](https://quarto.org) using 
     right:
       - icon: twitter
         href: https://twitter.com/StellarGeay
@@ -55,7 +59,7 @@ format:
     lightbox: true
 
 bibliography: references.bib
-csl: apa.csl
+csl: agu.csl
 
 execute:
   freeze: auto

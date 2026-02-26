@@ -1,13 +1,13 @@
 /*-- scss:defaults --*/
 
-// Color palette adapted from Silvia's design
-$spc-primary-light: #9b4c5a;
-$spc-primary: #6b334a;
-$spc-secondary: #e07a5f;
-$spc-secondary-light: #f2cc8f;
-$spc-accent: #3d5a80;
-$spc-accent-light: #98c1d9;
-$spc-accent-dark: #293241;
+// Blue color palette: Navy, Steel Blue, Royal Blue
+$spc-primary-light: #4682B4;   // Steel Blue
+$spc-primary: #003366;         // Dark Navy Blue
+$spc-secondary: #4169E1;       // Royal Blue
+$spc-secondary-light: #6495ED; // Cornflower Blue (hover)
+$spc-accent: #4682B4;          // Steel Blue
+$spc-accent-light: #dbeafe;    // Very light blue (code bg)
+$spc-accent-dark: #00008B;     // Dark Blue
 $spc-bg-0: white;
 
 // Quarto variables

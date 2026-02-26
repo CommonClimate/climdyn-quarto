@@ -6,10 +6,10 @@ listing:
   type: default
 ---
 
+## Applying
+
+I am always interested in interacting with smart students for any project, possibly leading to doing a PhD at USC. Please feel write to [email me](mailto:julieneg@usc.edu)
+
 ## External Writing
 
-I regularly write about paleoclimate research, data science, and open science:
-
-- **Medium**: [CyberPaleo channel](https://medium.com/cyberpaleo)
-- **Twitter**: [@StellarGeay](https://twitter.com/StellarGeay)  
-- **LinkedEarth Blog**: [linkedearth.org/blog](https://linkedearth.org/blog)
+These days I mostly write about  open science at [CyberPaleo](https://medium.com/cyberpaleo)

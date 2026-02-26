@@ -1,48 +1,147 @@
 ---
 title: "Research"
+csl: vancouver.csl
 ---
+
+```{=html}
+<style>
+.citation a { color: #4682B4; }
+.citation a:hover { color: #6495ED; }
+
+/* Research theme image-text layout (Wordsworth lab style) */
+.research-theme-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.research-theme-row .theme-img {
+  width: 250px;
+  height: auto;
+  flex-shrink: 0;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  border: 1px solid #d0d8e4;
+}
+
+.research-theme-row .theme-text {
+  flex: 1;
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .research-theme-row {
+    flex-direction: column;
+  }
+  .research-theme-row .theme-img {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+```
 
 ## Themes
 
-My research focuses on **paleoclimatology** - the study of past climate variations using proxy records from trees, corals, sediments, and ice. I develop statistical methods, data standards, and computational tools to extract climate insights from these diverse archives. Key themes include:
+My group's research focuses on **paleoclimatology** -- the study of past climates -- along the following themes. For more details, see our [publications](/publications.qmd).
 
-- **Data Standards & Cyberinfrastructure**: Building community platforms for paleoclimate data (LinkedEarth, LiPD format)
-- **Statistical Methods**: Paleoclimate data assimilation, uncertainty quantification, and time series analysis
-- **Climate Dynamics**: ENSO variability, volcanic forcing, and hydroclimate transitions
-- **Open Science**: Reproducible workflows, cloud computing, and community-driven research
+### Climate Reconstruction
+
+::: {.research-theme-row}
+<img src="assets/img/theme-reconstruction.png" alt="Climate Reconstruction" class="theme-img">
+
+::: {.theme-text}
+Our group has been involved with reconstructions of El Niño-Southern Oscillation (ENSO, [@JEG10b; @Zhu:ncomms2022]), global mean surface temperature [@Barboza:2019; @Neukom:ngeo2019], and multiple fields [@LMR1; @Tardif:CP19]. We have also been active in benchmarking reconstruction techniques [@Wang_CP2014; @Wang_GRL15; @pseudoPAGES2k].
+:::
+:::
+
+### Climate Modeling
+
+::: {.research-theme-row}
+<img src="assets/img/theme-modeling.png" alt="Climate Modeling" class="theme-img">
+
+::: {.theme-text}
+Our group has participated in the development [@Dee_JGR15] and evaluation of climate models, examining how models represent ENSO [@JEG_NatGeo2015], simulate volcanic eruptions [@Zhu:GRL2020], fractionate water isotopes [@Hu:jgr2018; @Hu:PP2019], and simulate the climate continuum [@Zhu:PNAS2019]. Paleoclimatology is particularly suited for model evaulation, as past climates provide an out-of-sample test of model predictions. Picture credit: [Quanta Magazine](https://www.quantamagazine.org/the-climate-change-paradox-20250915/). 
+:::
+:::
+
+### Data Science
+
+::: {.research-theme-row}
+<img src="assets/img/theme-datascience.png" alt="Data Science" class="theme-img">
+
+::: {.theme-text}
+We develop methods for paleoclimate data assimilation [@LMR1; @cfr_2024], climate field imputation [@Guillot_AOAS2015; @Vaccaro:GraphEM], uncertainty quantification [@JEG_Tingley_CP2016; @Emile-Geay:2025], and time series analysis [@James_LERM:2024; @Pyleoclim:PP2022].
+:::
+:::
+
+### Proxy Interpretation
+
+::: {.research-theme-row}
+<img src="assets/img/theme-proxy.png" alt="Proxy Interpretation" class="theme-img">
+
+::: {.theme-text}
+We have furthered understanding of how paleoclimate "[proxies](https://www.usgs.gov/programs/ecosystems-land-change-science-program/science/paleoclimate-proxies)" encode climate signals through proxy system models [@DMT_2011; @Dee_JGR15; @Dee:JAMES2016; @Dee_proxyScaling]. Alumni Jun Hu and Alex James have investigated speleothem records [@Hu:epsl17; @Hu:PP2019] on orbital [@James:PP2025] and shorter [@James:4.2ka] timescales.
+:::
+:::
+
+### Open Science
+
+::: {.research-theme-row}
+<img src="assets/img/theme-openscience.png" alt="Open Science" class="theme-img">
+
+::: {.theme-text}
+A throughline of our research is open science, exemplified by data compilations [@PAGES2k_SD2017_allauthors; @Kaufman:2020a], data standards [@lipd_cp; @JEG_McKay2016; @PaCTS_v1], and open-source software [@geochronr-paper; @Pyleoclim:PP2022; @lipd-util; @cfr_2024]. More at the [LinkeEarth](https://linked.earth) website. 
+:::
+:::
 
 ## Current Projects
+
+### LMR4D: P4CLIMATE — Connecting Seasonal to Millennial Timescales through Strongly Coupled Data Assimilation
+::: {.project-card}
+::: {.project-meta}
+**NSF P4CLIMATE AGS-2402475** | Co-PI (PI: G. Hakim, UW) | 2024–2026
+:::
+
+LMR4D is the latest iteration of the [Last Millennium Reanalysis](https://cpo.noaa.gov/last-millennium-reanalysis-now-at-noaas-national-centers-for-environmental-information-marking-major-milestone/) implementing a 4D variational (4DVAR) data assimilation framework — the same approach used in operational numerical weather prediction — to produce seasonally resolved temperature reconstructions over the Common Era. LMR4D will leverage data from new sources, including documentary evidence, marine sediments, annually-resolved marine bivalve chronologies, as well as boreholes.
+The resulting seasonally resolved reconstruction will be applied to (A1) simulate tropical cyclone track and intensity statistics using deep-learning weather models (Pangu-Weather, FourCastNet, DLWP), extending TC records by centuries and enabling the first millennial-scale simulations of tropical cyclone statistics, and (A2) characterize sources of climate variability across the seasonal-to-centennial continuum, including volcanic forcing responses and constraints on equilibrium climate sensitivity. LMR4D products will be  publicly accessible via [PReSto](https://paleopresto.com) and NOAA NCEI; the 4DVAR algorithm and proxy system models will be shared on GitHub, with reproducible workflows distributed via [PaleoBooks](https://linked.earth/PaleoBooks/). The project is training two graduate students and several undergraduates.
+
+::: {.project-links}
+[NSF Award Page](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2402475) | Publications: [@EmileGeay_AGU2025; @Gondhalekar:AGU2025]
+:::
+:::
+
+### PaleoPAL: An AI Research Assistant for Paleoclimatology
+::: {.project-card}
+::: {.project-meta}
+**NSF CAIG RISE 2425885** | Co-PI | 2025–2027
+:::
+
+PaleoPAL leverages a Retrieval-Augmented Generation (RAG) – Large Language Model (LLM) framework to create an AI assistant for paleoclimatology, enabling scientists to search for datasets, methods, and workflows appropriate to their research problem directly from a Jupyter Notebook. The project targets three critical research areas: placing recent El Niño variations in the context of the last 10,000 years, detecting climate tipping points and their potential precursors, and generating empirically-based, low-cost climate projections. By embedding AI directly into the practice of paleoclimatology through a familiar Jupyter interface, PaleoPAL aims to lower technical and conceptual barriers to sophisticated analyses across the paleoclimate community.
+
+::: {.project-links}
+[NSF Award Page](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2425885) | [Project Website](https://linked.earth)
+:::
+:::
 
 ### PaleoCube: Enabling Cloud-Based Paleoclimatology
 ::: {.project-card}
 ::: {.project-meta}
-**NSF EarthCube ICER 2126510** | Co-PI | $290,283 (USC portion) | 2021-2024
+**NSF EarthCube ICER 2126510** | Co-PI | 2021-2024
 :::
 
 PaleoCube proposes to lower technical and social barriers that prevent full use of paleoclimate observations by bringing scientists to work in the Cloud. The project extends existing cyberinfrastructure (LinkedEarth, Pangeo, Jupyter) to bring cutting-edge capabilities to paleoclimate scientists through cloud-based workflows, hackathons, and community engagement.
 
 ::: {.project-links}
-[NSF Award Page](https://nsf.gov/awardsearch/showAward?AWD_ID=2126510) | [Publications](#) | [Project Website](https://medium.com/cyberpaleo)
-:::
-:::
-
-### A Big Data Approach to Fundamental Paleoclimate Questions
-::: {.project-card}
-::: {.project-meta}
-**NSF P2C2 AGS 2002518** | Lead PI | $398,099 (USC portion) | 2020-2023
-:::
-
-Applying Big Data approaches to address fundamental questions in climate dynamics: (1) the spatial extent of abrupt changes in hydroclimate, and (2) how knowledge of past temperature variations can help reduce uncertainty in twenty-first century climate projections. Links paleoclimate data to CMIP6 climate model projections.
-
-::: {.project-links}
-[NSF Award Page](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2002518) |  [@James:PP2025; @James:4.2ka; @James_LERM:2024; @Cropper:2023; @Pyleoclim:PP2022]
+[NSF Award Page](https://nsf.gov/awardsearch/showAward?AWD_ID=2126510) | [@Pyleoclim:PP2022; @Manety:EDS2022] | [CyberPaleo](https://medium.com/cyberpaleo) | [PaleoBook Gallery](https://linked.earth/PaleoBooks/)
 :::
 :::
 
 ### PReSto: A Paleoclimate Reconstruction Storehouse
 ::: {.project-card}
 ::: {.project-meta}
-**NSF Geoinformatics EAR 1948822** | Lead PI | $347,629 (USC portion) | 2020-2023
+**NSF Geoinformatics EAR 1948822** | Lead PI | 2020-2023
 :::
 
 Developing a continuously-updated platform for paleoclimate reconstructions with broad web access to accelerate scientific inference. PReSto will connect growing digital paleoclimate data to evolving methodologies and distribute results through responsive web interfaces.
@@ -52,66 +151,76 @@ Developing a continuously-updated platform for paleoclimate reconstructions with
 :::
 :::
 
+## Past Projects
+
+### FROGS: Facilitating Reproducible Open GeoScience
+::: {.project-card}
+**NSF GEO OSE Track 1 RISE-2324732** | Co-PI | 2024-2026
+
+Building open science capacity in the geosciences through the [LeapFROGS](https://linked.earth/LeapFROGS/) training platform and a series of hands-on workshops (PyRATES, FAIRLeap, Open Geoscience Hackathon). Three workshops engaged 56 participants across more than a dozen geoscience subfields and career stages, producing 8 reproducible notebooks and 9 open-source software packages. Post-event surveys showed over 90% of participants gained confidence in applying FAIR and reproducible research methods.
+:::
+
+
+### A Big Data Approach to Fundamental Paleoclimate Questions
+::: {.project-card}
+::: {.project-meta}
+**NSF P2C2 AGS 2002518** | Lead PI | 2020-2023
+:::
+
+Applying Big Data approaches to address fundamental questions in climate dynamics: (1) the spatial extent of abrupt changes in hydroclimate, and (2) how knowledge of past temperature variations can help reduce uncertainty in twenty-first century climate projections. Links paleoclimate data to CMIP6 climate model projections.
+
+::: {.project-links}
+[NSF Award Page](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2002518) |  [@James:PP2025; @James:4.2ka; @James_LERM:2024; @Cropper:2023; @Pyleoclim:PP2022]
+:::
+:::
+
+
+### The Global Climate Response to Volcanic Eruptions
+::: {.project-card}
+**NOAA Climate Program Office NA18OAR4310426** | Lead PI | 2018-2020
+
+Investigating volcanic climate impacts using the Last Millennium Reanalysis framework.
+:::
+
+
 ### Abrupt Change in Climate and Ecosystems
 ::: {.project-card}
 ::: {.project-meta}
-**Belmont Forum via NSF ICER 1929554** | Co-PI | $99,982 (USC portion) | 2019-2022
+**Belmont Forum via NSF ICER 1929554** | Co-PI | 2019-2022
 :::
 
 International collaboration investigating tipping points in climate and ecosystems through integrated analysis approaches. Part of the Belmont Forum's focus on understanding where critical thresholds exist in Earth system components.
 
 ::: {.project-links}
-[NSF Award Page](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1929554) | [Publications](#) | [Belmont Forum](https://www.belmontforum.org/)
+[NSF Award Page](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1929554) |
 :::
 :::
 
-## Past Projects
-
-### The Global Climate Response to Volcanic Eruptions
-::: {.project-card}
-**NOAA Climate Program Office NA18OAR4310426** | Lead PI | $194,489 (USC portion) | 2018-2020
-
-Investigating volcanic climate impacts using the Last Millennium Reanalysis framework.
-:::
 
 ### LinkedEarth: Crowdsourcing Data Curation & Standards
 ::: {.project-card}
-**NSF EarthCube ICER 1541029** | Lead PI | $684,978 (USC portion) | 2015-2017
+**NSF EarthCube ICER 1541029** | Lead PI | 2015-2017
 
 Community platform development for paleoclimate data standards and knowledge curation.
 :::
 
 ### Last Millennium Climate Reanalysis Project
 ::: {.project-card}
-**NOAA Climate Program Office NOAA-OAR-CPO-2014-2003692** | Co-PI | $254,255 (USC portion) | 2014-2017
+**NOAA Climate Program Office NOAA-OAR-CPO-2014-2003692** | Co-PI | 2014-2017
 
 Developing data assimilation methods for paleoclimate reconstructions over the Common Era.
 :::
 
 ### GeoChronR: Open-Source Tools for Time-Uncertain Data
 ::: {.project-card}
-**NSF Geoinformatics EAR 1347213** | Co-PI | $196,655 (USC portion) | 2014-2017
+**NSF Geoinformatics EAR 1347213** | Co-PI | 2014-2017
 
 Analysis, visualization and integration tools for geochronological data with age uncertainties.
 :::
 
 ### Efficient High Dimensional Bayesian Methods for Climate Field Reconstruction
 ::: {.project-card}
-**NSF Mathematical Geophysics DMS 1025464** | Co-PI | $214,002 (USC portion) | 2010-2015
+**NSF Mathematical Geophysics DMS 1025464** | Co-PI | 2010-2015
 
 Statistical method development for spatially complete climate reconstructions.
 :::
-
-## Software & Tools
-
-### Pyleoclim
-**Python package for paleoclimate analysis**
-- Lead developer of analysis and visualization tools
-- Used by researchers worldwide
-- [GitHub Repository](https://github.com/LinkedEarth/Pyleoclim_util)
-
-### LiPD Format
-**Linked Paleo Data format for standardizing paleoclimate datasets**
-- Co-developer with Nick McKay
-- Powers major paleoclimate databases
-- [Documentation](https://lipd.net)
