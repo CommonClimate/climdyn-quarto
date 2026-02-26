@@ -23,6 +23,8 @@ about:
       href: https://scholar.google.com/citations?user=OVti4jEAAAAJ
     - text: "{{< ai orcid >}} ORCID"
       href: https://orcid.org/0000-0001-5920-4751
+    - text: "{{< fa file-lines >}} CV"
+      href: assets/JEG_CV.pdf
     - text: "{{< fa building >}} USC"
       href: https://dornsife.usc.edu/earth
 ---
@@ -31,19 +33,17 @@ about:
 
 ::: {#hero-heading}
 
-I am a Professor in the Department of Earth Sciences at the University of Southern California, where I study low-frequency climate variability -- the [bassline of climate](https://forecastpod.org/2018/12/20/episode-50-julien-emile-geay/). My research focuses on understanding climate dynamics across multiple timescales, from seasonal to millennial, with particular emphasis on the tropical Pacific and its global teleconnections.
+I am a professor in the Department of Earth Sciences at the University of Southern California, where I lead the Climate Dynamics laboratory. We study low-frequency climate variability -- the [bassline of climate](https://forecastpod.org/2018/12/20/episode-50-julien-emile-geay/) across multiple timescales, from seasonal to millennial, to shed light on future climate risk on various horizons relevant to societies and ecosystems.
 
-My work bridges paleoclimatology, climate dynamics, and data science, with a strong commitment to open science practices and reproducible research. I am passionate about building tools that make climate data and climate science more accessible to everyone.
-
-[Learn more about me &rarr;](/about){.about-links .subtitle}
+My work bridges paleoclimatology, climate dynamics and data science, with a strong commitment to open science practices and reproducible research. I am passionate about building tools that make climate data and climate science more accessible to everyone.
 
 :::
 <!-- hero-heading -->
 
 ## Research Interests
 
-- **Paleoclimatology**: Reconstructing past climate variability from proxy records
-- **Climate Dynamics**: Understanding mechanisms of climate variability and change
-- **Data Science**: Developing statistical methods for climate data analysis
+- **Paleoclimatology**: Reconstructing past climates 
+- **Climate Dynamics**: Understanding mechanisms of climate variability 
+- **Data Science**: Developing methods to get more out of climate data 
 - **Open Science**: Promoting reproducible research and open data practices
 

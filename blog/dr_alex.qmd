@@ -1,0 +1,13 @@
+---
+title: "Congrats, Dr James!"
+date: "2025-05-27"
+categories: [graduation, graduate-school]
+---
+
+![All that is left of Alex at USC](../assets/img/hurray_alex.jpg)
+
+Student graduation is a bittersweet moment. Today I am both proud and sad to celebrate Alex James' doctorate after 5 years in our program. Alex joined the lab at the height of the COVID-19 pandemic in August 2020 with a background in physics and philosophy from UCSB. He was a quick study and TA'ed my "Discovery of Global Warming" class (see [Teaching](../teaching.qmd)) twice while starting research on nonlinear timeseries analysis techniques, eventually leading to his first paper on using Laplacian Eigenmaps of Recurrence Matrices to document both abrupt and gradual dynamical transitions in paleoclimate timeseries [@James_LERM:2024]. For this paper he nucleated a new package called [Ammonyte](https://github.com/LinkedEarth/Ammonyte/), now in the hands of Maryam Niati. He then picked up a paper that [Jun Hu](https://www.junhu.info) had started before graduating in 2019, but never got the chance to finish. Alex added LERM to the methods applied to the question of "was there such a thing as a  global 4.2ka event"?, concluding with a resounding NO [@James:4.2ka]. His last PhD chapter was on the signals documented by cave deposits (speleothems) about the hydrological cycle on timescales commensurate with changes in Earth's orbit [@James:PP2025].
+
+Throughout his graduate career, Alex was a pillar of the Pyleoclim package development team [@Pyleoclim:PP2022], picking up from where [Feng Zhu](https://fzhu2e.github.io) had left off.  His affinities for [Claude Code ](https://code.claude.com/docs/en/overview) helped create new classes like [global coherence](https://pyleoclim-util.readthedocs.io/en/latest/core/api.html#globalcoherence-pyleoclim-globalcoherence) and a vastly more streamlined suite of [continuous integration tests](https://www.atlassian.com/continuous-delivery/continuous-integration). First and foremost, he was a monument to Zen, with a dedicated meditation practice and a tea consumption that briefly scared the Chinese government into rationing at home. His positive and helpful attitude around the lab was treasured by all. 
+
+Alex now works as a geophysicist at [Deep Blue Geophysics](https://www.deepbluegeophysics.com/about) and remains in the LA area, so if you live around here, watch your Oolong tea stash. 

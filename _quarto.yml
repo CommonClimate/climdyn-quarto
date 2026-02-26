@@ -33,7 +33,7 @@ website:
 
   page-footer:
     left: |
-      © 2026 Julien Emile-Geay. Built with [Quarto](https://quarto.org) using 
+      © 2026 Julien Emile-Geay. Built with [Quarto](https://quarto.org) 
     right:
       - icon: twitter
         href: https://twitter.com/StellarGeay
