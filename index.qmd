@@ -23,7 +23,7 @@ about:
       href: https://scholar.google.com/citations?user=OVti4jEAAAAJ
     - text: "{{< ai orcid >}} ORCID"
       href: https://orcid.org/0000-0001-5920-4751
-    - text: "{{< fa file-lines >}} CV"
+    - text: "{{< fa scroll >}} CV"
       href: assets/JEG_CV.pdf
     - text: "{{< fa building >}} USC"
       href: https://dornsife.usc.edu/earth

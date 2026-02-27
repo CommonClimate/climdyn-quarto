@@ -63,5 +63,5 @@ A 2-unit graduate seminar to encourage engagement in cutting-edge, diverse geosc
 - Follow the [CyberPaleo blog](https://medium.com/cyberpaleo) and the [LinkedEarth Twitter feed](https://twitter.com/Linked_Earth) for announcements
 
 ## Resources
-- A survival kit for geophysical fluid dynamics 
+- Math for oceanography  [PDF](/assets/math_for_oceanography.pdf)
 - Data Analysis in the Earth & Environmental Sciences: free [e-book](https://figshare.com/articles/book/Data_Analysis_in_the_Earth_Environmental_Sciences/1014336)
