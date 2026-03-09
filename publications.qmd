@@ -105,21 +105,21 @@ For a complete list see my [Google Scholar profile](https://scholar.google.com/c
 }
 </style>
 
-<div id="tag-filter">
-  <button class="tag-btn active" data-tag="all">All</button>
-  <button class="tag-btn" data-tag="data assimilation">data assimilation</button>
-  <button class="tag-btn" data-tag="reconstruction">reconstruction</button>
-  <button class="tag-btn" data-tag="climate modeling">climate modeling</button>
-  <button class="tag-btn" data-tag="proxy system modeling">proxy system modeling</button>
-  <button class="tag-btn" data-tag="data compilation">data compilation</button>
-  <button class="tag-btn" data-tag="timeseries analysis">timeseries analysis</button>
-  <button class="tag-btn" data-tag="event detection">event detection</button>
-  <button class="tag-btn" data-tag="causal discovery">causal discovery</button>
-  <button class="tag-btn" data-tag="Sun-climate connections">Sun-climate connections</button>
-  <button class="tag-btn" data-tag="statistics">statistics</button>
-  <button class="tag-btn" data-tag="volcanic response">volcanic response</button>
-  <button class="tag-btn" data-tag="ENSO">ENSO</button>
-  <button class="tag-btn" data-tag="model evaluation">model evaluation</button>
+<div id="tag-filter" role="group" aria-label="Filter publications by topic">
+  <button class="tag-btn active" data-tag="all" aria-pressed="true">All</button>
+  <button class="tag-btn" data-tag="data assimilation" aria-pressed="false">data assimilation</button>
+  <button class="tag-btn" data-tag="reconstruction" aria-pressed="false">reconstruction</button>
+  <button class="tag-btn" data-tag="climate modeling" aria-pressed="false">climate modeling</button>
+  <button class="tag-btn" data-tag="proxy system modeling" aria-pressed="false">proxy system modeling</button>
+  <button class="tag-btn" data-tag="data compilation" aria-pressed="false">data compilation</button>
+  <button class="tag-btn" data-tag="timeseries analysis" aria-pressed="false">timeseries analysis</button>
+  <button class="tag-btn" data-tag="event detection" aria-pressed="false">event detection</button>
+  <button class="tag-btn" data-tag="causal discovery" aria-pressed="false">causal discovery</button>
+  <button class="tag-btn" data-tag="Sun-climate connections" aria-pressed="false">Sun-climate connections</button>
+  <button class="tag-btn" data-tag="statistics" aria-pressed="false">statistics</button>
+  <button class="tag-btn" data-tag="volcanic response" aria-pressed="false">volcanic response</button>
+  <button class="tag-btn" data-tag="ENSO" aria-pressed="false">ENSO</button>
+  <button class="tag-btn" data-tag="model evaluation" aria-pressed="false">model evaluation</button>
 </div>
 ```
 
@@ -277,8 +277,10 @@ document.addEventListener('DOMContentLoaded', function () {
     btn.addEventListener('click', function () {
       document.querySelectorAll('.tag-btn').forEach(function (b) {
         b.classList.remove('active');
+        b.setAttribute('aria-pressed', 'false');
       });
       this.classList.add('active');
+      this.setAttribute('aria-pressed', 'true');
 
       const tag = this.getAttribute('data-tag');
 

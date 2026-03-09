@@ -15,6 +15,7 @@ website:
     tools:
     - icon: github
       href: https://www.github.com/CommonClimate/climdyn-quarto
+      aria-label: "GitHub Repository"
     right:
       - text: Research
         aria-label: "Research Projects"
