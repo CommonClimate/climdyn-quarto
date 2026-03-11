@@ -5,16 +5,16 @@ project:
     - assets/JEG_CV.pdf
 
 website:
-  title: "Julien Emile-Geay"
+  title: "USC Climate Dynamics"
   description: "Paleoclimatology, Climate Dynamics, Data Science, Open Knowledge"
-  site-url: https://climdyn.usc.edu
-  repo-url: https://github.com/CommonClimate/climdyn-quarto
+  site-url: https://commonclimate.github.io/
+  repo-url: https://github.com/CommonClimate/commonclimate.github.io
   favicon: assets/favicon.ico
   
   navbar:
     tools:
     - icon: github
-      href: https://www.github.com/CommonClimate/climdyn-quarto
+      href: https://www.github.com/CommonClimate/commonclimate.github.io
       aria-label: "GitHub Repository"
     right:
       - text: Research
