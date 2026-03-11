@@ -115,7 +115,7 @@ The resulting seasonally resolved reconstruction will be applied to (A1) simulat
 ### PaleoPAL: An AI Research Assistant for Paleoclimatology
 ::: {.project-card}
 ::: {.project-meta}
-**NSF CAIG RISE 2425885** | Co-PI | 2025–2027
+**NSF CAIG RISE 2425885** | Co-PI (Lead: D. Khider, ISI) | 2025–2027
 :::
 
 PaleoPAL leverages a Retrieval-Augmented Generation (RAG) – Large Language Model (LLM) framework to create an AI assistant for paleoclimatology, enabling scientists to search for datasets, methods, and workflows appropriate to their research problem directly from a Jupyter Notebook. The project targets three critical research areas: placing recent El Niño variations in the context of the last 10,000 years, detecting climate tipping points and their potential precursors, and generating empirically-based, low-cost climate projections. By embedding AI directly into the practice of paleoclimatology through a familiar Jupyter interface, PaleoPAL aims to lower technical and conceptual barriers to sophisticated analyses across the paleoclimate community.
@@ -128,7 +128,7 @@ PaleoPAL leverages a Retrieval-Augmented Generation (RAG) – Large Language Mod
 ### PaleoCube: Enabling Cloud-Based Paleoclimatology
 ::: {.project-card}
 ::: {.project-meta}
-**NSF EarthCube ICER 2126510** | Co-PI | 2021-2024
+**NSF EarthCube ICER 2126510** | Co-PI (Lead: D. Khider, ISI) | 2021-2024
 :::
 
 PaleoCube proposes to lower technical and social barriers that prevent full use of paleoclimate observations by bringing scientists to work in the Cloud. The project extends existing cyberinfrastructure (LinkedEarth, Pangeo, Jupyter) to bring cutting-edge capabilities to paleoclimate scientists through cloud-based workflows, hackathons, and community engagement.
@@ -141,7 +141,7 @@ PaleoCube proposes to lower technical and social barriers that prevent full use 
 ### PReSto: A Paleoclimate Reconstruction Storehouse
 ::: {.project-card}
 ::: {.project-meta}
-**NSF Geoinformatics EAR 1948822** | Lead PI | 2020-2023
+**NSF Geoinformatics EAR 1948822** | Co-PI (Lead: N. McKay, NAU) | 2020-2026
 :::
 
 Developing a continuously-updated platform for paleoclimate reconstructions with broad web access to accelerate scientific inference. PReSto will connect growing digital paleoclimate data to evolving methodologies and distribute results through responsive web interfaces.
@@ -155,7 +155,7 @@ Developing a continuously-updated platform for paleoclimate reconstructions with
 
 ### FROGS: Facilitating Reproducible Open GeoScience
 ::: {.project-card}
-**NSF GEO OSE Track 1 RISE-2324732** | Co-PI | 2024-2026
+**NSF GEO OSE Track 1 RISE-2324732** | Co-PI (Lead: D. Khider, ISI) | 2024-2026
 
 Building open science capacity in the geosciences through the [LeapFROGS](https://linked.earth/LeapFROGS/) training platform and a series of hands-on workshops (PyRATES, FAIRLeap, Open Geoscience Hackathon). Three workshops engaged 56 participants across more than a dozen geoscience subfields and career stages, producing 8 reproducible notebooks and 9 open-source software packages. Post-event surveys showed over 90% of participants gained confidence in applying FAIR and reproducible research methods.
 :::
@@ -164,7 +164,7 @@ Building open science capacity in the geosciences through the [LeapFROGS](https:
 ### A Big Data Approach to Fundamental Paleoclimate Questions
 ::: {.project-card}
 ::: {.project-meta}
-**NSF P2C2 AGS 2002518** | Lead PI | 2020-2023
+**NSF P2C2 AGS 2002556** | Lead PI | 2020-2023
 :::
 
 Applying Big Data approaches to address fundamental questions in climate dynamics: (1) the spatial extent of abrupt changes in hydroclimate, and (2) how knowledge of past temperature variations can help reduce uncertainty in twenty-first century climate projections. Links paleoclimate data to CMIP6 climate model projections.
@@ -186,7 +186,7 @@ Investigating volcanic climate impacts using the Last Millennium Reanalysis fram
 ### Abrupt Change in Climate and Ecosystems
 ::: {.project-card}
 ::: {.project-meta}
-**Belmont Forum via NSF ICER 1929554** | Co-PI | 2019-2022
+**Belmont Forum via NSF ICER 1929554** | Co-PI (Lead: N. McKay, NAU) | 2019-2022
 :::
 
 International collaboration investigating tipping points in climate and ecosystems through integrated analysis approaches. Part of the Belmont Forum's focus on understanding where critical thresholds exist in Earth system components.
@@ -206,21 +206,35 @@ Community platform development for paleoclimate data standards and knowledge cur
 
 ### Last Millennium Climate Reanalysis Project
 ::: {.project-card}
-**NOAA Climate Program Office NOAA-OAR-CPO-2014-2003692** | Co-PI | 2014-2017
+**NOAA Climate Program Office NA14OAR4310175** | Co-PI (Lead: G. Hakim, UW)  | 2014-2017
 
 Developing data assimilation methods for paleoclimate reconstructions over the Common Era.
 :::
 
 ### GeoChronR: Open-Source Tools for Time-Uncertain Data
 ::: {.project-card}
-**NSF Geoinformatics EAR 1347213** | Co-PI | 2014-2017
+**NSF Geoinformatics EAR 1347213** | Co-PI (Lead: N. McKay, NAU) | 2014-2017
 
 Analysis, visualization and integration tools for geochronological data with age uncertainties.
 :::
 
 ### Efficient High Dimensional Bayesian Methods for Climate Field Reconstruction
 ::: {.project-card}
-**NSF Mathematical Geophysics DMS 1025464** | Co-PI | 2010-2015
+**NSF Mathematical Geophysics DMS 1025464** | Co-PI (Lead: B. Rajaratnam, Stanford) | 2010-2015
 
 Statistical method development for spatially complete climate reconstructions.
+:::
+
+### Multiproxy Reconstructions as A Missing-Data Problem
+::: {.project-card}
+**NSF P2C2 GEO 1003818** | Lead PI | 2010-2015
+
+New techniques for multiproxy climate reconstructions and their application to regional climates of the past millennium.
+:::
+
+### Maximizing the Potential of Tropical Climate Proxies
+::: {.project-card}
+**NOAA Climate Program Office NA10OAR4310115** | Lead PI | 2010-2014
+
+Integrated climate-proxy forward modeling to maximize the climate information extractable from tropical paleoclimate proxies.
 :::

@@ -184,20 +184,20 @@ Maryam's research focuses on AI in paleoclimatology as part of the PaleoPAL proj
 
 :::: {.alumni-entry}
 **[Adam Vaccaro](https://www.linkedin.com/in/advaccaro/)**
-[→ Scientific Applications Software Engineer, NASA Jet Propulsion Laboratory]{.alumni-now}
+[— Scientific Applications Software Engineer, NASA Jet Propulsion Laboratory]{.alumni-now}
 ::::
 
 :::: {.alumni-entry}
 **[Yuxin Zhou](https://scholar.google.com/citations?user=381uqXwAAAAJ&hl=en)**
-[→ Postdoc, UC Santa Barbara (PhD from Columbia University)]{.alumni-now}
+[— Postdoc, UC Santa Barbara (PhD from Columbia University)]{.alumni-now}
 ::::
 
 :::: {.alumni-entry}
 **[Tiffany Tsai](https://www.linkedin.com/in/tiffanyts/)**
-[→ Data Scientist, Zillow]{.alumni-now}
+[— Data Scientist, Zillow]{.alumni-now}
 ::::
 
 :::: {.alumni-entry}
 **[Jill Hardy](https://www.linkedin.com/in/jillhardy/)**
-[→ Research Associate, National Weather Service Warning Decision Training Division]{.alumni-now}
+[ -  Research Associate, National Weather Service Warning Decision Training Division]{.alumni-now}
 ::::
